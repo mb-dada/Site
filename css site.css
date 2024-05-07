@@ -2,3 +2,20 @@ body{background-color: lightgrey;}
 h1{text-align: center;}
 .a{color: lightgrey;}
 .b{text-size-adjust: 33cm;}
+
+summary{
+    cursor: pointer;
+            padding: 5px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            font-size: 1em;     
+}
+
+details[open] summary {
+    background-color: #f0f0f0;
+}
+
+details p {
+    font-size: 16px; /* Taille de police pour p*/
+}
