@@ -9,7 +9,8 @@ summary{
             background-color: #f0f0f0;
             border: 1px solid #ccc;
             border-radius: 3px;
-            font-size: 1em;     
+            font-size: 1em;  
+               
 }
 
 details[open] summary {
@@ -19,3 +20,4 @@ details[open] summary {
 details p {
     font-size: 16px; /* Taille de police pour p*/
 }
+
