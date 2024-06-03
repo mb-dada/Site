@@ -1,16 +1,41 @@
-body{background-color: lightgrey;}
-h1{text-align: center;}
+header {
+    background-color: #f2f2f2; 
+    padding: 10px; 
+    display: flex;
+    align-items: center;
+}
+header img {
+    margin-left: 20px; 
+}
+header nav {
+    margin-left: auto; 
+}
+header nav a {
+    text-decoration: none; 
+    margin-left: 20px; 
+}
+
+body{background-color: lightgrey;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{text-align: center;
+    color: #333;
+    margin-top: 20px;}
+
 .a{color: lightgrey;}
-.b{text-size-adjust: 33cm;}
+.b{text-size-adjust: 1.5em;}
 
 summary{
     cursor: pointer;
-            padding: 5px;
+            padding: 10px;
             background-color: #f0f0f0;
             border: 1px solid #ccc;
             border-radius: 3px;
             font-size: 1em;  
-               
+            font-weight: bold;
+            color: #333;     
 }
 
 details[open] summary {
@@ -20,5 +45,10 @@ details[open] summary {
 details p {
     font-size: 16px; /* Taille de police pour p*/
 }
-.images{height: 200px;}
-.logo{height: 75px;}
+.images{
+    height: 200px;
+    object-fit: cover;
+}
+.logo{
+    height: 75px;
+}
